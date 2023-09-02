@@ -13,5 +13,4 @@ def get_user(id):
 
 users = [user for id in user_ids if (user := get_user(id)) is not None];
 
-print(users);
 print(json.dumps(users, indent=2));
