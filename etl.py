@@ -4,11 +4,12 @@ import load as l
 import json
 import pandas as pd
 import openai
+import os 
 
 sdw2023_api_url = "https://sdw-2023-prd.up.railway.app";
-openai_api_key = "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";
-#openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = openai_api_key;
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+print(openai.api_key)
 
 
 df = pd.read_csv('SDW2023.csv');
@@ -29,6 +30,3 @@ for user in users:
 for user in users:
     success = l.update_user(sdw2023_api_url, user)
     print(f"User {user['name']} updated? {success}!")
-
-
-
