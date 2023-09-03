@@ -6,5 +6,5 @@ A transformação e carregamento utilizarão a OpenAPI do Chat GPT para gerar me
 Por fim, os dados serão atualizados através da API do Santander.
 
 ## Tecnologias
-    - **SantanderDevWeekAPI: https://sdw-2023-prd.up.railway.app/swagger-ui/index.html
-    - **OpenAPI: https://platform.openai.com/docs/api-reference
+    - **SantanderDevWeekAPI**: https://sdw-2023-prd.up.railway.app/swagger-ui/index.html
+    - **OpenAPI**: https://platform.openai.com/docs/api-reference
