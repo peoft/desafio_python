@@ -9,8 +9,6 @@ import os
 sdw2023_api_url = "https://sdw-2023-prd.up.railway.app";
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-print(openai.api_key)
-
 
 df = pd.read_csv('SDW2023.csv');
 user_ids = df['UserID'].tolist();
