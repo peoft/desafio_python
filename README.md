@@ -1,4 +1,4 @@
-# Desafio de projeto em python
+# Desafio de projeto em python criado pela DIO
 
 Criar um pipeline ETL (Extração, Transformação e Carregamento).
 
